@@ -10,10 +10,11 @@ const queryClient = new QueryClient();
 
 const config = createConfig({
   chains: [hardhat],
+  ssr: true, // ✅ Fixes Next.js hydration mismatch with wagmi
   connectors: [injected()],
   transports: {
-    [hardhat.id]: http(RPC_URL)
-  }
+    [hardhat.id]: http(RPC_URL),
+  },
 });
 
 export default function App({ Component, pageProps }: AppProps) {
