@@ -1,0 +1,58 @@
+grep -R "parseEther\|formatEther" -n src pages
+cd /Users/asgerkelstrup/Downloads/polymini/web
+grep -R "parseEther\|formatEther" -n src pages
+cd /Users/asgerkelstrup/Downloads/polymini/web
+try { console.log("noReserves", (await m2.noReserves()).toString()); } catch(e) {}
+try { console.log("yesReserves", (await m2.yesReserves()).toString()); } catch(e) {}
+try { console.log("noReserve", (await m2.noReserve()).toString()); } catch(e) {}
+try { console.log("yesReserve", (await m2.yesReserve()).toString()); } catch(e) {}
+m2 = await ethers.getContractAt("BinaryMarket", MARKET2);
+MARKET2 = "0xB30dAf0240261Be564Cea33260F01213c47AAa0D";
+.exit
+const MARKET2 = "0xB30dAf0240261Be564Cea33260F01213c47AAa0D";
+try { console.log("noReserves", (await m2.noReserves()).toString()); } catch(e) {}
+try { console.log("yesReserves", (await m2.yesReserves()).toString()); } catch(e) {}
+try { console.log("noReserve", (await m2.noReserve()).toString()); } catch(e) {}
+try { console.log("yesReserve", (await m2.yesReserve()).toString()); } catch(e) {}
+const m2 = await ethers.getContractAt("BinaryMarket", MARKET2);
+const MARKET2 = "0xB30dAf0240261Be564Cea33260F01213c47AAa0D";
+try { console.log("noReserves", (await m2.noReserves()).toString()); } catch(e) {}
+try { console.log("yesReserves", (await m2.yesReserves()).toString()); } catch(e) {}
+try { console.log("noReserve", (await m2.noReserve()).toString()); } catch(e) {}
+try { console.log("yesReserve", (await m2.yesReserve()).toString()); } catch(e) {}
+const m2 = await ethers.getContractAt("BinaryMarket", MARKET2);
+const MARKET2 = "0xB30dAf0240261Be564Cea33260F01213c47AAa0D";
+.exit
+try { console.log("noReserves", (await m2.noReserves()).toString()); } catch(e) {}
+try { console.log("yesReserves", (await m2.yesReserves()).toString()); } catch(e) {}
+try { console.log("noReserve", (await m2.noReserve()).toString()); } catch(e) {}
+try { console.log("yesReserve", (await m2.yesReserve()).toString()); } catch(e) {}
+const m2 = await ethers.getContractAt("BinaryMarket", MARKET2);
+const MARKET2 = "0xB30dAf0240261Be564Cea33260F01213c47AAa0D";
+const MARKET = "0xB30dAf0240261Be564Cea33260F01213c47AAa0D";
+try { console.log("noReserves", (await m.noReserves()).toString()); } catch(e) {}
+try { console.log("yesReserves", (await m.yesReserves()).toString()); } catch(e) {}
+try { console.log("noReserve", (await m.noReserve()).toString()); } catch(e) {}
+try { console.log("yesReserve", (await m.yesReserve()).toString()); } catch(e) {}
+// Try common reserve variable names (one of these will work)
+const m = await ethers.getContractAt("BinaryMarket", MARKET);
+const MARKET = "0xB30dAf0240261Be564Cea33260F01213c47AAa0D";
+const d = require("./deployed.local.json");
+try { console.log("yesReserves", (await m.yesReserves()).toString()); } catch(e) {}
+try { console.log("noReserve", (await m.noReserve()).toString()); } catch(e) {}
+try { console.log("yesReserve", (await m.yesReserve()).toString()); } catch(e) {}
+// Try common reserve variable names (one of these will work)
+const m = await ethers.getContractAt("BinaryMarket", MARKET);
+const MARKET = d.sampleMarket; // or paste your new market address: "0x..."
+const d = require("./deployed.local.json");
+const MARKET = d.sampleMarket; // or paste youDr new market address: "0x..."0xB30dAf0240261Be564Cea33260F01213c47AAa0
+try { console.log("noReserves", (await m.noReserves()).toString()); } catch(e) {}
+try { console.log("yesReserves", (await m.yesReserves()).toString()); } catch(e) {}
+try { console.log("noReserve", (await m.noReserve()).toString()); } catch(e) {}
+try { console.log("yesReserve", (await m.yesReserve()).toString()); } catch(e) {}
+// Try common reserve variable names (one of these will work)
+const m = await ethers.getContractAt("BinaryMarket", MARKET);
+const MARKET = d.sampleMarket; // or paste your new market address: "0x..."
+const d = require("./deployed.local.json");
+await (await ethers.provider.getSigner(0).sendTransaction({ to, value: ethers.parseEther("1") })).wait();
+const to = "0xYOUR_METAMASK_ADDRESS";
