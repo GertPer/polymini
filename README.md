@@ -6,8 +6,11 @@
 
 * Node.js (recommended: v18+)
 * npm installed
+* Git installed
 
-**0)Download the demo
+---
+
+### 0) Download PolyMini
 
 ```bash
 git clone https://github.com/GertPer/polymini.git
