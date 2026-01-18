@@ -1,11 +1,16 @@
 ## For Jakub Quick Start (local demo)
 
 **Goal:** Run the demo locally and trade YES/NO in a prediction market.
+- We recommend importing Hardhat Account #0 displayed in terminal 1. This address should be imported to MetaMask, and then afterwards used to connect to the app.
+- Account #0: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266 (10000 ETH)
+Private Key: 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
 
 ### Prerequisites
 - Node.js (recommended: v18+)
 - npm installed
 - Git installed
+- We recommend importing Hardhat Account #0 for demo
+  
 
 ---
 
