@@ -7,6 +7,12 @@
 * Node.js (recommended: v18+)
 * npm installed
 
+### Download the demo
+'''
+git clone https://github.com/GertPer/polymini.git
+cd polymini 
+'''
+
 ### Run the demo
 
 **1) Start the local blockchain + deploy contracts**
