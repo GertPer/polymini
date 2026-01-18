@@ -9,7 +9,7 @@
 
 ---
 
-### 0) Download PolyMini
+### Download PolyMini
 
 ```bash
 git clone https://github.com/GertPer/polymini.git
