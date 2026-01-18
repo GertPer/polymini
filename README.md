@@ -8,10 +8,11 @@
 * npm installed
 
 ### Download the demo
-'''
+
+```bash
 git clone https://github.com/GertPer/polymini.git
-cd polymini 
-'''
+cd polymini
+
 
 ### Run the demo
 
