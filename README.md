@@ -11,10 +11,11 @@
 
 ### Download PolyMini
 
+**0) Download it
 ```bash
 git clone https://github.com/GertPer/polymini.git
 cd polymini
-
+```
 
 ### Run the demo
 
