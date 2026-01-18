@@ -1,45 +1,45 @@
-# PolyMini – a Polymarket-style prototype (university/demo)
+## For Jakub Quick Start (local demo)
 
-This repo is a **minimal classroom prototype** inspired by prediction markets.
+**Goal:** Run the demo locally and trade YES/NO in a prediction market.
 
-- **No real money**: intended for **local Hardhat** or a testnet with a mock token.
-- **Not audited**: do not use in production.
+### Prerequisites
 
-## What you get
-- `contracts/` – Hardhat project
-  - `MockUSDC.sol` faucet token
-  - `BinaryMarket.sol` (YES/NO shares + constant-product AMM)
-  - `MarketFactory.sol` (deploy & list markets for the UI)
-- `web/` – Next.js UI
-  - List markets, view a market, trade YES/NO, redeem
-  - Admin page to create markets and resolve outcomes
+* Node.js (recommended: v18+)
+* npm installed
 
-## Quick start (local)
+### Run the demo
 
-### 1) Contracts
+**1) Start the local blockchain + deploy contracts**
+
 ```bash
 cd contracts
-npm i
+npm install
 npm run node
 ```
-In another terminal:
+
+In a new terminal:
+
 ```bash
 cd contracts
 npm run deploy:local
 ```
-This writes `contracts/deployed.local.json` with addresses.
 
-### 2) Web UI
-Copy addresses into env vars:
+**2) Start the web app**
+
 ```bash
 cd web
-npm i
+npm install
 cp .env.example .env.local
-# edit .env.local with values from contracts/deployed.local.json
+# Copy values from contracts/deployed.local.json into .env.local
 npm run dev
 ```
-Open http://localhost:3000
 
-## Notes
-- The AMM is intentionally simple. Shares are *internal balances* (not ERC20) to keep the prototype small.
-- Resolution is **admin-based** for demo. For a stronger project, replace it with an oracle (e.g., optimistic oracle) and add dispute flow.
+Open:
+[http://localhost:3000](http://localhost:3000)
+
+### What you should see
+
+* A list of markets
+* A market view where you can buy YES/NO
+* Ability to redeem after resolution (admin resolves outcomes)
+
