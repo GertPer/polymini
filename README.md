@@ -52,10 +52,6 @@ After deploying, the terminal will print the deployed **Factory** and **Collater
 cd web
 npm install
 
-# Auto-generate web/.env.local from contracts/deployed.local.json
-# node -e "const d=require('../contracts/deployed.local.json'); const fs=require('fs'); if(!d.Factory||!d.MockUSDC) throw new Error('Missing Factory/MockUSDC in deployed.local.json'); fs.writeFileSync('.env.local',
-# `NEXT_PUBLIC_RPC_URL=http://127.0.0.1:8545\nNEXT_PUBLIC_FACTORY_ADDRESS=${d.Factory}\nNEXT_PUBLIC_COLLATERAL_ADDRESS=${d.MockUSDC}\n`); console.log('Wrote web/.env.local');" 
-
 # Start the web app
 rm -rf .next
 npm run dev
