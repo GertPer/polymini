@@ -17,14 +17,14 @@ npm install
 npm run node
 ```
 
-In a new terminal:
+In a second terminal:
 
 ```bash
 cd contracts
 npm run deploy:local
 ```
 
-**2) Start the web app**
+**2) Start the web app in a third terminal**
 
 ```bash
 cd web
