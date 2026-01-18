@@ -3,7 +3,6 @@
 **Goal:** Run the demo locally and trade YES/NO in a prediction market.
 
 ### Prerequisites
-
 * Node.js (recommended: v18+)
 * npm installed
 * Git installed
@@ -15,7 +14,7 @@
 ```bash
 git clone https://github.com/GertPer/polymini.git
 cd polymini
-'''
+
 
 ### Run the demo
 
